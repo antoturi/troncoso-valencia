@@ -11,7 +11,7 @@ body{
 }
 
 h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'IBM Plex Mono', monospace; 
 	font-weight:700; 
 }
 
@@ -154,6 +154,7 @@ video{
 }
 
 .item figure img{
+	border-radius: 50%
 	width:100%; 
 	height:auto; 
 	margin-bottom:-4px;
