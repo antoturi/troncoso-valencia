@@ -16,31 +16,33 @@ background-size: 150px 150px;
 
 }
 
-h1, h2, h3, h4{
-	font-family: 'IBM Plex Mono', monospace; 
-	font-weight:700; 
-}
 
 h1{
+	font-family: 'Baloo Tammudu', sans-serif;
+	font-size:100px;
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
+	color:rgba(98,16,17,1);
 	text-shadow: 1px 1px 0 #999;	
 	text-align:right;
-	margin-right: 10px;
+	margin-right: 50px;
 }
 
 h2{
+	font-family: 'Baloo Tammudu', cursive;
+	font-width:700;
 	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
+	color:rgba(162, 29, 33,1); 
 	padding:0.2em 0; 
 	text-shadow: 1px 1px 0 #999;
 	text-align:right;
-	margin-right: 10px;		
+	margin-right: 50px;		
 }
 
 h3{
+	font-family: 'Baloo Tammudu', cursive;
+	font-width:700;
 	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
+	color:rgba(0,0,0,0); 
 	padding:2em 0 0.6em 0; 
 	text-shadow: 1px 1px 0 #ccc;
 	text-align:center;	
@@ -143,19 +145,6 @@ color: white;
 	border:none;
 	}
 
-#portafolio{
-	width:100%;
-	padding-bottom:1%;
-	background-color: rgb(98,16,17);
-}
-{
-	width:48%;
-	margin:1%;
-	color:#333;
-	background:red;
-	box-shadow:0 0 5px rgba(155,155,155,.1);
-}
-
 .item:hover{
 	cursor:crosshair;
 }
@@ -170,6 +159,7 @@ color: white;
 	height:auto; 
 	margin-top: 10px;
 	margin-bottom:-4px;
+	margin-left: 40px;
 	filter: grayscale(1);
 }
 
@@ -189,6 +179,7 @@ color: white;
 	font-size:1em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
+	margin-left: 40px;
 }
 
 .item p{
@@ -197,23 +188,44 @@ color: white;
 	margin:2% 5% 6% 5%;
 }
 #rectangle1{
+	float: left;
+	margin-left: 15px;
     width:600px;
-    height:600px;
-    background-color: rgb(215, 31, 38);
-    box-shadow: 20px 20px 0 #ccc;
+    height:700px;
+    background-color: rgb(190, 32, 37);
+    box-shadow: 20px 20px 0 rgb(98,16,17);
+}
+#rectangle{
+	float: right;
+	margin-right: 30px;
+    width:700px;
+    height:700px;
+    background-color:rgb(190, 32, 37);
+    box-shadow: -20px 20px 0 rgb(98,16,17);
 }
 
-.center 
+.center{
+	display: block;
+	max-width: 50%;
+	max-height: auto;
+	margin-top: 80px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Baloo Tammudu', cursive;
 	color: white;
-	font-weight:700; 	
+	font-size:30px;	
 }
 
 footer p{
+	font-family: 'Baloo Tammudu', cursive;
+	color: white;
+	text-align: center;
 	text-transform:uppercase;
 	letter-spacing:0.1em;
 	font-size:0.9em;
